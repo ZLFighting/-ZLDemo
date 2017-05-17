@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78DEF7A31EBACAAE00AC257D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7A21EBACAAE00AC257D /* main.m */; };
+		78DEF7A61EBACAAE00AC257D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7A51EBACAAE00AC257D /* AppDelegate.m */; };
+		78DEF7AE1EBACAAE00AC257D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7AD1EBACAAE00AC257D /* Assets.xcassets */; };
+		78DEF7B11EBACAAE00AC257D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7AF1EBACAAE00AC257D /* LaunchScreen.storyboard */; };
+		78DEF7BC1EBACAAE00AC257D /* ZLSpecificAnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7BB1EBACAAE00AC257D /* ZLSpecificAnimationsTests.m */; };
+		78DEF7C71EBACAAE00AC257D /* ZLSpecificAnimationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7C61EBACAAE00AC257D /* ZLSpecificAnimationsUITests.m */; };
+		78DEF7DB1EBAD31400AC257D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7DA1EBAD31400AC257D /* RootViewController.m */; };
+		78DEF7DE1EBAD35100AC257D /* ZLBroadcastingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7DD1EBAD35100AC257D /* ZLBroadcastingController.m */; };
+		78DEF7E01EBAD5CB00AC257D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7DF1EBAD5CB00AC257D /* Main.storyboard */; };
+		78DEF7E31EBB112500AC257D /* broadcasting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7E21EBB112500AC257D /* broadcasting@2x.png */; };
+		78DEF7E71EBB13DF00AC257D /* ZLBarrageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7E61EBB13DF00AC257D /* ZLBarrageController.m */; };
+		78DEF7EB1EBB174600AC257D /* ZLScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7EA1EBB174600AC257D /* ZLScrollLabelView.m */; };
+		78DEF7EE1EBB28FD00AC257D /* NSString+XHHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7ED1EBB28FD00AC257D /* NSString+XHHExtension.m */; };
+		78DEF7F21EBC109C00AC257D /* ZLFireworksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7F11EBC109C00AC257D /* ZLFireworksController.m */; };
+		78DEF7F51EBC66B300AC257D /* fireworks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7F31EBC66B300AC257D /* fireworks@2x.png */; };
+		78DEF7F61EBC66B300AC257D /* ring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7F41EBC66B300AC257D /* ring@2x.png */; };
+		78DEF7FA1EBC678F00AC257D /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7F81EBC678F00AC257D /* snow@2x.png */; };
+		78DEF7FB1EBC678F00AC257D /* alpha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF7F91EBC678F00AC257D /* alpha@2x.png */; };
+		78DEF7FE1EBC67B700AC257D /* ZLSnowflakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF7FD1EBC67B700AC257D /* ZLSnowflakeController.m */; };
+		78DEF8021EBC6A7A00AC257D /* ZLLiveHeartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF8011EBC6A7A00AC257D /* ZLLiveHeartController.m */; };
+		78DEF8051EBC6AB600AC257D /* ZLLiveHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF8041EBC6AB600AC257D /* ZLLiveHeartView.m */; };
+		78DEF8091EC5A11700AC257D /* ZLLikeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF8081EC5A11700AC257D /* ZLLikeAnimation.m */; };
+		78DEF80C1EC5A34500AC257D /* ZLLikePictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DEF80B1EC5A34500AC257D /* ZLLikePictureController.m */; };
+		78DEF80E1EC5A50500AC257D /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78DEF80D1EC5A50500AC257D /* resource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78DEF7B81EBACAAE00AC257D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78DEF7961EBACAAD00AC257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78DEF79D1EBACAAE00AC257D;
+			remoteInfo = ZLSpecificAnimations;
+		};
+		78DEF7C31EBACAAE00AC257D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78DEF7961EBACAAD00AC257D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78DEF79D1EBACAAE00AC257D;
+			remoteInfo = ZLSpecificAnimations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78DEF79E1EBACAAE00AC257D /* ZLSpecificAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSpecificAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DEF7A21EBACAAE00AC257D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78DEF7A41EBACAAE00AC257D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78DEF7A51EBACAAE00AC257D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78DEF7AD1EBACAAE00AC257D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78DEF7B01EBACAAE00AC257D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78DEF7B21EBACAAE00AC257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DEF7B71EBACAAE00AC257D /* ZLSpecificAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSpecificAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DEF7BB1EBACAAE00AC257D /* ZLSpecificAnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSpecificAnimationsTests.m; sourceTree = "<group>"; };
+		78DEF7BD1EBACAAE00AC257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DEF7C21EBACAAE00AC257D /* ZLSpecificAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSpecificAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DEF7C61EBACAAE00AC257D /* ZLSpecificAnimationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSpecificAnimationsUITests.m; sourceTree = "<group>"; };
+		78DEF7C81EBACAAE00AC257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DEF7D91EBAD31400AC257D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		78DEF7DA1EBAD31400AC257D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		78DEF7DC1EBAD35100AC257D /* ZLBroadcastingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBroadcastingController.h; sourceTree = "<group>"; };
+		78DEF7DD1EBAD35100AC257D /* ZLBroadcastingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBroadcastingController.m; sourceTree = "<group>"; };
+		78DEF7DF1EBAD5CB00AC257D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		78DEF7E21EBB112500AC257D /* broadcasting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "broadcasting@2x.png"; sourceTree = "<group>"; };
+		78DEF7E51EBB13DF00AC257D /* ZLBarrageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBarrageController.h; sourceTree = "<group>"; };
+		78DEF7E61EBB13DF00AC257D /* ZLBarrageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBarrageController.m; sourceTree = "<group>"; };
+		78DEF7E91EBB174600AC257D /* ZLScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollLabelView.h; sourceTree = "<group>"; };
+		78DEF7EA1EBB174600AC257D /* ZLScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScrollLabelView.m; sourceTree = "<group>"; };
+		78DEF7EC1EBB28FD00AC257D /* NSString+XHHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XHHExtension.h"; sourceTree = "<group>"; };
+		78DEF7ED1EBB28FD00AC257D /* NSString+XHHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XHHExtension.m"; sourceTree = "<group>"; };
+		78DEF7F01EBC109C00AC257D /* ZLFireworksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFireworksController.h; sourceTree = "<group>"; };
+		78DEF7F11EBC109C00AC257D /* ZLFireworksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFireworksController.m; sourceTree = "<group>"; };
+		78DEF7F31EBC66B300AC257D /* fireworks@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fireworks@2x.png"; sourceTree = "<group>"; };
+		78DEF7F41EBC66B300AC257D /* ring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ring@2x.png"; sourceTree = "<group>"; };
+		78DEF7F81EBC678F00AC257D /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
+		78DEF7F91EBC678F00AC257D /* alpha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha@2x.png"; sourceTree = "<group>"; };
+		78DEF7FC1EBC67B700AC257D /* ZLSnowflakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSnowflakeController.h; sourceTree = "<group>"; };
+		78DEF7FD1EBC67B700AC257D /* ZLSnowflakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSnowflakeController.m; sourceTree = "<group>"; };
+		78DEF8001EBC6A7A00AC257D /* ZLLiveHeartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLiveHeartController.h; sourceTree = "<group>"; };
+		78DEF8011EBC6A7A00AC257D /* ZLLiveHeartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLiveHeartController.m; sourceTree = "<group>"; };
+		78DEF8031EBC6AB600AC257D /* ZLLiveHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLiveHeartView.h; sourceTree = "<group>"; };
+		78DEF8041EBC6AB600AC257D /* ZLLiveHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLiveHeartView.m; sourceTree = "<group>"; };
+		78DEF8071EC5A11700AC257D /* ZLLikeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLikeAnimation.h; sourceTree = "<group>"; };
+		78DEF8081EC5A11700AC257D /* ZLLikeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLikeAnimation.m; sourceTree = "<group>"; };
+		78DEF80A1EC5A34500AC257D /* ZLLikePictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLikePictureController.h; sourceTree = "<group>"; };
+		78DEF80B1EC5A34500AC257D /* ZLLikePictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLikePictureController.m; sourceTree = "<group>"; };
+		78DEF80D1EC5A50500AC257D /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78DEF79B1EBACAAE00AC257D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DEF7B41EBACAAE00AC257D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DEF7BF1EBACAAE00AC257D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78DEF7951EBACAAD00AC257D = {
+			isa = PBXGroup;
+			children = (
+				78DEF7A01EBACAAE00AC257D /* ZLSpecificAnimations */,
+				78DEF7BA1EBACAAE00AC257D /* ZLSpecificAnimationsTests */,
+				78DEF7C51EBACAAE00AC257D /* ZLSpecificAnimationsUITests */,
+				78DEF79F1EBACAAE00AC257D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78DEF79F1EBACAAE00AC257D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF79E1EBACAAE00AC257D /* ZLSpecificAnimations.app */,
+				78DEF7B71EBACAAE00AC257D /* ZLSpecificAnimationsTests.xctest */,
+				78DEF7C21EBACAAE00AC257D /* ZLSpecificAnimationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78DEF7A01EBACAAE00AC257D /* ZLSpecificAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7D81EBAD2ED00AC257D /* 广播跑马灯 */,
+				78DEF7E41EBB13C300AC257D /* 弹幕效果 */,
+				78DEF7EF1EBC108400AC257D /* 烟花效果 */,
+				78DEF7F71EBC676E00AC257D /* 雪花效果 */,
+				78DEF7FF1EBC6A3700AC257D /* 直播点赞 */,
+				78DEF8061EC5A07D00AC257D /* 直播动画图片 */,
+				78DEF7D91EBAD31400AC257D /* RootViewController.h */,
+				78DEF7DA1EBAD31400AC257D /* RootViewController.m */,
+				78DEF7A41EBACAAE00AC257D /* AppDelegate.h */,
+				78DEF7A51EBACAAE00AC257D /* AppDelegate.m */,
+				78DEF7A11EBACAAE00AC257D /* Supporting Files */,
+				78DEF7AD1EBACAAE00AC257D /* Assets.xcassets */,
+				78DEF7DF1EBAD5CB00AC257D /* Main.storyboard */,
+				78DEF7AF1EBACAAE00AC257D /* LaunchScreen.storyboard */,
+				78DEF7B21EBACAAE00AC257D /* Info.plist */,
+			);
+			path = ZLSpecificAnimations;
+			sourceTree = "<group>";
+		};
+		78DEF7A11EBACAAE00AC257D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7A21EBACAAE00AC257D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78DEF7BA1EBACAAE00AC257D /* ZLSpecificAnimationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7BB1EBACAAE00AC257D /* ZLSpecificAnimationsTests.m */,
+				78DEF7BD1EBACAAE00AC257D /* Info.plist */,
+			);
+			path = ZLSpecificAnimationsTests;
+			sourceTree = "<group>";
+		};
+		78DEF7C51EBACAAE00AC257D /* ZLSpecificAnimationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7C61EBACAAE00AC257D /* ZLSpecificAnimationsUITests.m */,
+				78DEF7C81EBACAAE00AC257D /* Info.plist */,
+			);
+			path = ZLSpecificAnimationsUITests;
+			sourceTree = "<group>";
+		};
+		78DEF7D81EBAD2ED00AC257D /* 广播跑马灯 */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7E21EBB112500AC257D /* broadcasting@2x.png */,
+				78DEF7DC1EBAD35100AC257D /* ZLBroadcastingController.h */,
+				78DEF7DD1EBAD35100AC257D /* ZLBroadcastingController.m */,
+			);
+			name = "广播跑马灯";
+			path = "广播公告";
+			sourceTree = "<group>";
+		};
+		78DEF7E41EBB13C300AC257D /* 弹幕效果 */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7E51EBB13DF00AC257D /* ZLBarrageController.h */,
+				78DEF7E61EBB13DF00AC257D /* ZLBarrageController.m */,
+				78DEF7E91EBB174600AC257D /* ZLScrollLabelView.h */,
+				78DEF7EA1EBB174600AC257D /* ZLScrollLabelView.m */,
+				78DEF7EC1EBB28FD00AC257D /* NSString+XHHExtension.h */,
+				78DEF7ED1EBB28FD00AC257D /* NSString+XHHExtension.m */,
+			);
+			path = "弹幕效果";
+			sourceTree = "<group>";
+		};
+		78DEF7EF1EBC108400AC257D /* 烟花效果 */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7F31EBC66B300AC257D /* fireworks@2x.png */,
+				78DEF7F41EBC66B300AC257D /* ring@2x.png */,
+				78DEF7F01EBC109C00AC257D /* ZLFireworksController.h */,
+				78DEF7F11EBC109C00AC257D /* ZLFireworksController.m */,
+			);
+			path = "烟花效果";
+			sourceTree = "<group>";
+		};
+		78DEF7F71EBC676E00AC257D /* 雪花效果 */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF7F81EBC678F00AC257D /* snow@2x.png */,
+				78DEF7F91EBC678F00AC257D /* alpha@2x.png */,
+				78DEF7FC1EBC67B700AC257D /* ZLSnowflakeController.h */,
+				78DEF7FD1EBC67B700AC257D /* ZLSnowflakeController.m */,
+			);
+			path = "雪花效果";
+			sourceTree = "<group>";
+		};
+		78DEF7FF1EBC6A3700AC257D /* 直播点赞 */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF8001EBC6A7A00AC257D /* ZLLiveHeartController.h */,
+				78DEF8011EBC6A7A00AC257D /* ZLLiveHeartController.m */,
+				78DEF8031EBC6AB600AC257D /* ZLLiveHeartView.h */,
+				78DEF8041EBC6AB600AC257D /* ZLLiveHeartView.m */,
+			);
+			path = "直播点赞";
+			sourceTree = "<group>";
+		};
+		78DEF8061EC5A07D00AC257D /* 直播动画图片 */ = {
+			isa = PBXGroup;
+			children = (
+				78DEF80D1EC5A50500AC257D /* resource.bundle */,
+				78DEF80A1EC5A34500AC257D /* ZLLikePictureController.h */,
+				78DEF80B1EC5A34500AC257D /* ZLLikePictureController.m */,
+				78DEF8071EC5A11700AC257D /* ZLLikeAnimation.h */,
+				78DEF8081EC5A11700AC257D /* ZLLikeAnimation.m */,
+			);
+			path = "直播动画图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78DEF79D1EBACAAE00AC257D /* ZLSpecificAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DEF7CB1EBACAAE00AC257D /* Build configuration list for PBXNativeTarget "ZLSpecificAnimations" */;
+			buildPhases = (
+				78DEF79A1EBACAAE00AC257D /* Sources */,
+				78DEF79B1EBACAAE00AC257D /* Frameworks */,
+				78DEF79C1EBACAAE00AC257D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLSpecificAnimations;
+			productName = ZLSpecificAnimations;
+			productReference = 78DEF79E1EBACAAE00AC257D /* ZLSpecificAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78DEF7B61EBACAAE00AC257D /* ZLSpecificAnimationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DEF7CE1EBACAAE00AC257D /* Build configuration list for PBXNativeTarget "ZLSpecificAnimationsTests" */;
+			buildPhases = (
+				78DEF7B31EBACAAE00AC257D /* Sources */,
+				78DEF7B41EBACAAE00AC257D /* Frameworks */,
+				78DEF7B51EBACAAE00AC257D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78DEF7B91EBACAAE00AC257D /* PBXTargetDependency */,
+			);
+			name = ZLSpecificAnimationsTests;
+			productName = ZLSpecificAnimationsTests;
+			productReference = 78DEF7B71EBACAAE00AC257D /* ZLSpecificAnimationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78DEF7C11EBACAAE00AC257D /* ZLSpecificAnimationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DEF7D11EBACAAE00AC257D /* Build configuration list for PBXNativeTarget "ZLSpecificAnimationsUITests" */;
+			buildPhases = (
+				78DEF7BE1EBACAAE00AC257D /* Sources */,
+				78DEF7BF1EBACAAE00AC257D /* Frameworks */,
+				78DEF7C01EBACAAE00AC257D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78DEF7C41EBACAAE00AC257D /* PBXTargetDependency */,
+			);
+			name = ZLSpecificAnimationsUITests;
+			productName = ZLSpecificAnimationsUITests;
+			productReference = 78DEF7C21EBACAAE00AC257D /* ZLSpecificAnimationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78DEF7961EBACAAD00AC257D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZL;
+				TargetAttributes = {
+					78DEF79D1EBACAAE00AC257D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+					};
+					78DEF7B61EBACAAE00AC257D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78DEF79D1EBACAAE00AC257D;
+					};
+					78DEF7C11EBACAAE00AC257D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78DEF79D1EBACAAE00AC257D;
+					};
+				};
+			};
+			buildConfigurationList = 78DEF7991EBACAAD00AC257D /* Build configuration list for PBXProject "ZLSpecificAnimations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78DEF7951EBACAAD00AC257D;
+			productRefGroup = 78DEF79F1EBACAAE00AC257D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78DEF79D1EBACAAE00AC257D /* ZLSpecificAnimations */,
+				78DEF7B61EBACAAE00AC257D /* ZLSpecificAnimationsTests */,
+				78DEF7C11EBACAAE00AC257D /* ZLSpecificAnimationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78DEF79C1EBACAAE00AC257D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DEF80E1EC5A50500AC257D /* resource.bundle in Resources */,
+				78DEF7E01EBAD5CB00AC257D /* Main.storyboard in Resources */,
+				78DEF7FA1EBC678F00AC257D /* snow@2x.png in Resources */,
+				78DEF7E31EBB112500AC257D /* broadcasting@2x.png in Resources */,
+				78DEF7F51EBC66B300AC257D /* fireworks@2x.png in Resources */,
+				78DEF7B11EBACAAE00AC257D /* LaunchScreen.storyboard in Resources */,
+				78DEF7F61EBC66B300AC257D /* ring@2x.png in Resources */,
+				78DEF7AE1EBACAAE00AC257D /* Assets.xcassets in Resources */,
+				78DEF7FB1EBC678F00AC257D /* alpha@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DEF7B51EBACAAE00AC257D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DEF7C01EBACAAE00AC257D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78DEF79A1EBACAAE00AC257D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DEF7FE1EBC67B700AC257D /* ZLSnowflakeController.m in Sources */,
+				78DEF8051EBC6AB600AC257D /* ZLLiveHeartView.m in Sources */,
+				78DEF8021EBC6A7A00AC257D /* ZLLiveHeartController.m in Sources */,
+				78DEF8091EC5A11700AC257D /* ZLLikeAnimation.m in Sources */,
+				78DEF7F21EBC109C00AC257D /* ZLFireworksController.m in Sources */,
+				78DEF7A61EBACAAE00AC257D /* AppDelegate.m in Sources */,
+				78DEF7A31EBACAAE00AC257D /* main.m in Sources */,
+				78DEF7DB1EBAD31400AC257D /* RootViewController.m in Sources */,
+				78DEF7EE1EBB28FD00AC257D /* NSString+XHHExtension.m in Sources */,
+				78DEF80C1EC5A34500AC257D /* ZLLikePictureController.m in Sources */,
+				78DEF7E71EBB13DF00AC257D /* ZLBarrageController.m in Sources */,
+				78DEF7EB1EBB174600AC257D /* ZLScrollLabelView.m in Sources */,
+				78DEF7DE1EBAD35100AC257D /* ZLBroadcastingController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DEF7B31EBACAAE00AC257D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DEF7BC1EBACAAE00AC257D /* ZLSpecificAnimationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DEF7BE1EBACAAE00AC257D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DEF7C71EBACAAE00AC257D /* ZLSpecificAnimationsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78DEF7B91EBACAAE00AC257D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78DEF79D1EBACAAE00AC257D /* ZLSpecificAnimations */;
+			targetProxy = 78DEF7B81EBACAAE00AC257D /* PBXContainerItemProxy */;
+		};
+		78DEF7C41EBACAAE00AC257D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78DEF79D1EBACAAE00AC257D /* ZLSpecificAnimations */;
+			targetProxy = 78DEF7C31EBACAAE00AC257D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78DEF7AF1EBACAAE00AC257D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78DEF7B01EBACAAE00AC257D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78DEF7C91EBACAAE00AC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78DEF7CA1EBACAAE00AC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78DEF7CC1EBACAAE00AC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLSpecificAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLSpecificAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78DEF7CD1EBACAAE00AC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLSpecificAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLSpecificAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78DEF7CF1EBACAAE00AC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLSpecificAnimationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLSpecificAnimationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSpecificAnimations.app/ZLSpecificAnimations";
+			};
+			name = Debug;
+		};
+		78DEF7D01EBACAAE00AC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLSpecificAnimationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLSpecificAnimationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSpecificAnimations.app/ZLSpecificAnimations";
+			};
+			name = Release;
+		};
+		78DEF7D21EBACAAE00AC257D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLSpecificAnimationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLSpecificAnimationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLSpecificAnimations;
+			};
+			name = Debug;
+		};
+		78DEF7D31EBACAAE00AC257D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = ZLSpecificAnimationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLSpecificAnimationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLSpecificAnimations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78DEF7991EBACAAD00AC257D /* Build configuration list for PBXProject "ZLSpecificAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DEF7C91EBACAAE00AC257D /* Debug */,
+				78DEF7CA1EBACAAE00AC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78DEF7CB1EBACAAE00AC257D /* Build configuration list for PBXNativeTarget "ZLSpecificAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DEF7CC1EBACAAE00AC257D /* Debug */,
+				78DEF7CD1EBACAAE00AC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78DEF7CE1EBACAAE00AC257D /* Build configuration list for PBXNativeTarget "ZLSpecificAnimationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DEF7CF1EBACAAE00AC257D /* Debug */,
+				78DEF7D01EBACAAE00AC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78DEF7D11EBACAAE00AC257D /* Build configuration list for PBXNativeTarget "ZLSpecificAnimationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DEF7D21EBACAAE00AC257D /* Debug */,
+				78DEF7D31EBACAAE00AC257D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78DEF7961EBACAAD00AC257D /* Project object */;
+}
